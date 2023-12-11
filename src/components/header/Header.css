@@ -1,0 +1,190 @@
+.imgBox{
+    position: relative;
+    width: 100%;
+}
+
+.bgImage{
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+}
+
+.subHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 108px;
+    position: fixed;
+    width: 100%;
+    gap: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.middleHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.iconStyle{
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+.headerList{
+    display: flex;
+    align-items: center;
+}
+
+.navBar{
+    list-style: none;
+    display: flex;
+    margin-left: 200px;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.home{
+    margin-right: 50px;
+}
+.signBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #324255;
+    border: white 2px solid;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bgImage{
+    margin-top: 100px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 300px;
+    height: 543px;
+    width: 100%;
+    color: #324255;
+    font-size: 50px;
+    padding-left: 250px;
+    font-weight: bolder;
+}
+
+.detail{
+    font-size: large;
+    font-weight: 400;
+    margin-left: 70px;
+    width: 600px;
+    margin-top: -10px;
+}
+
+.startedBtn{
+    width: 150px;
+    padding: 10px 0;
+    margin-left: 350px;
+    margin-top: 50px;
+    background-color: #324255;
+    border: white 2px solid;
+    border-radius: 40px;
+    color: white;
+    font-size: x-large;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.aboutInfo{
+    border: white 2px solid;
+    background-color: #324255;
+    color: white;
+    text-align: justify;
+    width: 400px;
+    margin-left: 150px;
+    padding: 100px 150px 100px 50px;
+    font-size: medium;
+}
+
+.headings{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.aboutPhoto{
+    width: 500px;
+    height: 400px;
+    padding-top: 70px;
+    margin-left: -60px;
+}
+
+.services{
+    padding-top: 100px;
+    color: #324255;
+}
+
+.whyBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border: #324255 2px solid;
+    border-radius: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #324255;
+    color: white;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.joinBtn{
+    padding: 5px 10px;
+    color: #324255;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#Email{
+    padding: 8px 30px 8px 5px;
+    margin-top: -2px;
+    background-color: #324255;
+    border: white 2px solid;
+    color: white;
+}
